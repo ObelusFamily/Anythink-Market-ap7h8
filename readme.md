@@ -11,3 +11,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+## Second setup
+
+After merging your pull request, install dockers in your local machine and run the predefined container.
+Use command **docker-compose up** to initialize docker container setup.
+If you are on windows and it gives you errors, make sure you have **enable hardware virtualization in your BIOS** and **Docker Desktop** running. 
+After this check if project is up and running and try to register as a new user from front end.
